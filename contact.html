@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+        #hex{
+            margin-bottom: -10px;
+            margin-top: -10px;
+            margin-left: 10%;
+        }
+        #oct{
+            margin-left:15%;
+            margin-top:9%;
+        }
+        .button{
+            border: none;
+            background-color: #04AA6D;
+            padding:15px 32px;
+            display:inline-block;
+            cursor: pointer;
+            margin:4px 2px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset style="background-color:rgb(230, 228, 228) ; border: 0;">
+        <img src=IMG-20240320-WA0035.jpg
+         style=" margin-top: 0%;margin-left: 15%;margin-bottom: -0.5%; border-color:rgb(225, 225, 225);" height="25px"alt=" "> 08069878321
+         <img src=IMG-20240320-WA0040.jpg
+         style="margin-top: 0%;margin-left: 25%;margin-bottom: -0.5%;" height="25px" alt=" "> hello@thetapacademy.com
+   </fieldset>
+   <br>
+
+
+   <fieldset style=" border: 0;">
+       <img src=IMG-20240320-WA0037.jpg
+         style=" margin-top: 0%;margin-left: 5%;margin-bottom: -0.5%; border-color:rgb(225, 225, 225);" height="35px"alt=" ">
+         <a style="margin-top: 0%; margin-left:8%; margin-bottom:-0.5%; text-decoration:none;" href="index.html">Home</a>
+         <a style="margin-top: 0%; margin-left:8%; margin-bottom:-0.5%; text-decoration:none;" href="course.html">Course</a>
+         <a style="margin-top: 0%; margin-left:8%; margin-bottom:-0.5%; text-decoration:none;" href="studentreview.html">Student Review</a>
+         <a style="margin-top: 0%; margin-left:8%; margin-bottom:-0.5%; text-decoration:none;" href="placement.html">Placements</a>
+         <a style="margin-top: 0%; margin-left:8%; margin-bottom:-0.5%; text-decoration:none;" href="contact.html">Contact</a>
+   </fieldset>
+   <br>
+   <div id="hex">
+    <h1>Contact Us</h1>
+    <p>Send us your Query our team will get back to you soon</p>
+    <form>
+        <fieldset style ="border: 0;">
+            <label for="name">NAME <span style="color: red;"> * </span></label>
+            <br>
+            <br>
+            <input type="text" required id="name" size="50;" name="name" pattern="[a-zA-Z ]{7,25}">
+            <br>
+            <br>
+            <label for="email">EMAIL <span style="color: red;"> * </span></label>
+            <br>
+            <br>
+            <input type="text" required id="email" name="email" size="50;" pattern="[a-z0-9_.]+@[a-z]+.{2,4}">
+            <br>
+            <br>
+            <label for="phnum">PHONE NUMBER <span style="color: red;"> * </span></label>
+            <br>
+            <br>
+            <input type="text" required id="phnum" name="phnum" size="50;" pattern="[6-9]{1}[0-9]{9}">
+            <br>
+            <br>
+            <label for="msg">MESSAGE <span style="color: red;"> * </span></label>
+            <br>
+            <br>
+            <input type="text" required id="msg" name="msg"  size="50;" pattern="[a-zA-Z]{0,200}">
+            <br>
+            <br>
+            <label>YEAR OF GRADUATION <span style="color: red;"> * </span> </label>
+            <br>
+            <br>
+            <input list="yog" size="50;">
+            <br>
+            <br>
+            <datalist id="yog">
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+                <option>2024</option>
+            </datalist>
+            <br>
+            <label>MODE OF TRAINING <span style="color: red;"> * </span></label>
+            <br>
+            <br>
+            <input type="radio" name="mode" value="Offline" id="offline">
+            <label for="offline">Offline</label>
+            <br>
+            <br>
+            <input type="radio" name="mode" value="Online" id="online">
+            <label for="online">Online</label>
+            <br>
+            <br>
+            <button class="button">SUBMIT</button>
+            <img src="Screenshot 2024-03-21 000712.png"
+        style="margin-left:53%;margin-bottom:13%;margin-top:-65%;border:0;width:500px;height:500px">
+
+        </fieldset>
+    </form>
+   </div>
+   
+
+    
+</body>
+</html>
